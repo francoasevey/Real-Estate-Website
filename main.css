@@ -20,6 +20,9 @@ html{
     scroll-behavior: smooth;
     scroll-padding-top: 7rem;
 }
+body{
+    background: #f7f7f7;
+}
 
 header{
     position: fixed;
@@ -90,6 +93,9 @@ header .icons #menu-bars{
         border-bottom: .1rem solid #333;
         transition: .2s linear;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
     header .navbar a{
         display: block;
