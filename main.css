@@ -99,7 +99,7 @@ header .icons #menu-bars{
     justify-content: center;
 }
 .home form{
-    margin-top: 1rem;
+    margin-top: 7rem;
     background: #fff;
     border-radius: .5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
@@ -134,6 +134,10 @@ header .icons #menu-bars{
     padding: 1rem;
     text-transform: none;
 }
+.home form .btn{
+    width: 100%;
+    margin-top: 2rem;
+}
 
 
 @media (max-width:991px){
@@ -142,6 +146,9 @@ header .icons #menu-bars{
     }
     header{
         padding: 1.5rem 1rem;
+    }
+    section{
+        padding: 1.5rem;
     }
 }
 @media (max-width:768px){
