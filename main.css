@@ -202,6 +202,81 @@ header .icons #menu-bars{
 .featured .box-container .box:hover .image-container img{
     transform: scale(1.1);
 }
+.featured .box-container .box .image-container .info{
+    position: absolute;
+    top: 1rem; left: 0;
+    display: flex;
+}
+.featured .box-container .box .image-container .info h3{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #fff;
+    background: rgba(0,0,0,.3);
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    margin-left: 1rem;
+}
+.featured .box-container .box .image-container .icons {
+    position: absolute;
+    bottom: 1rem; right: 0;
+    display: flex;
+}
+.featured .box-container .box .image-container .icons a{
+    font-size: 1.4rem;
+    color: #fff;
+    display: flex;
+    border-radius: .5rem;
+    background: rgba(0,0,0,.3);
+    margin-right: 1rem;
+    padding: .7rem;
+}
+.featured .box-container .box .image-container .icons a h3 {
+    font-weight: 500;
+    padding-left: .5rem;
+}
+.featured .box-container .box .image-container .icons a:hover{
+    background: var(--red);
+}
+.featured .box-container .box .content{
+    padding: 1.5rem;
+}
+.featured .box-container .box .content .price{
+    display: flex;
+    align-items: center;
+}
+.featured .box-container .box .content .price h3{
+    color: var(--red);
+    font-size: 2rem;
+    margin-right: auto;
+}
+.featured .box-container .box .content .price a{
+    color: #666;
+    font-size: 1.5rem;
+    margin-right: .5rem;
+    border-radius: .5rem;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    background: #f7f7f7;
+}
+.featured .box-container .box .content .price a:hover{
+    background: var(--red);
+    color: #fff;
+}
+.featured .box-container .box .content .locations{
+    padding: 1rem 0;
+}
+.featured .box-container .box .content .locations h3{
+    font-size: 2.5rem;
+    color: #333;
+}
+.featured .box-container .box .content .locations p{
+    font-size: 1.5rem;
+    color: #666;
+    line-height: 1.5;
+    padding-top: .5rem;
+}
 
 @media (max-width:991px){
     html{
